@@ -20,22 +20,7 @@ function App() {
     // Fragment 단순히 감싸기 용으로 태그를 이용해야 할때 사용
     // 형태 : <></>
 
-    <>
-      {/* 어쩌고 저쩌고 주석처리하기 */}
-      /* 중괄호로 감싸지 않으면 화면에 보입니다. */
-      <Hello
-      // 이런식으로 작성하는 주석은 개발자 도구에 나타나지 않는다
-      />
-      <input />
-      <br />
-      <div
-        // 아아아아아
-        style={style}
-      >
-        {name}
-      </div>
-      <div className="gray_box"></div>
-    </>
+    <Hello name="react" />
   );
 }
 
